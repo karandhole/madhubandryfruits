@@ -38,7 +38,7 @@ const slider_setting = {
 
 // instagram images
 const instagram_data = [
-  { link: "https://www.instagram.com", img: "/assets/img/insta/insta-1.jpg" },
+  { link: "https://www.instagram.com", img: "/assets/img/insta/insta-6.jpg" },
   { link: "https://www.instagram.com", img: "/assets/img/insta/insta-2.jpg" },
   { link: "https://www.instagram.com", img: "/assets/img/insta/insta-3.jpg" },
   { link: "https://www.instagram.com", img: "/assets/img/insta/insta-4.jpg" },
