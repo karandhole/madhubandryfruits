@@ -28,7 +28,7 @@ const HeaderTop = () => {
                 <span className="header__lang-select">
                   English <i className="far fa-angle-down"></i>
                 </span>
-                <ul className="header__lang-submenu">
+                {/* <ul className="header__lang-submenu">
                   <li>
                     <a href="#">Australia</a>
                   </li>
@@ -47,9 +47,9 @@ const HeaderTop = () => {
                   <li>
                     <a href="#">United States</a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
-              <div className="header__top-price">
+              {/* <div className="header__top-price">
                 <NiceSelect
                   options={[
                     { value: "usd", label: "USD" },
@@ -64,7 +64,7 @@ const HeaderTop = () => {
                   onChange={(item) => handleCurrency(item)}
                   name="Currency"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

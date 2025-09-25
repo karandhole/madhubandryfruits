@@ -57,7 +57,7 @@ const ProductSingle = ({ product, progress, cls, offer_style, price_space }: IPr
     <div
       className={`tpproduct p-relative ${cls ? cls : ""} ${progress ? "tpprogress__hover" : ""}`}
     >
-      <div className="tpproduct__thumb p-relative text-center">
+      <div className="tpproduct__thumb overflow-hidden p-relative text-center">
         <Link href={`/shop-details/${product.id}`}>
           <Image
             src={image.original}

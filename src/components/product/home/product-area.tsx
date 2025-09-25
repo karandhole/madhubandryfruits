@@ -12,7 +12,7 @@ const slider_setting = {
    observer: true,
    observeParents: true,
    autoplay: {
-      delay: 5000,
+      delay: 3000,
       disableOnInteraction: true,
    },
    breakpoints: {
