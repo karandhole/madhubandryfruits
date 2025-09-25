@@ -42,7 +42,7 @@ const instagram_data = [
   { link: "https://www.instagram.com", img: "/assets/img/insta/2.jpeg" },
   { link: "https://www.instagram.com", img: "/assets/img/insta/3.png" },
   { link: "https://www.instagram.com", img: "/assets/img/insta/4.png" },
-  { link: "https://www.instagram.com", img: "/assets/img/insta/8.png" },
+  { link: "https://www.instagram.com", img: "/assets/img/insta/9.jpg" },
   { link: "https://www.instagram.com", img: "/assets/img/insta/2.jpeg" },
 ];
 
@@ -53,13 +53,14 @@ const InstagramArea = () => {
         <div className="row">
           <div className="col-lg-12 text-center">
             <div className="tpsection mb-35">
-              <h4 className="tpsection__title">@Orfarm</h4>
+              <h4 className="tpsection__title">@DryFruitsDelight</h4>
               <p>
-                Tag <Link href="/">@orfarm</Link> in your Instagram photos
-                for a chance to be featured here. <br /> Find more inspiration
-                on our Instagram.
+                Tag <Link href="/">@orfarm</Link> in your Instagram photos with your
+                favorite <strong>dry fruits moments</strong> for a chance to be featured here.
+                <br /> Discover more healthy inspirations on our Instagram.
               </p>
             </div>
+
           </div>
         </div>
         <Swiper {...slider_setting} className="swiper-container tpinsta-active">
