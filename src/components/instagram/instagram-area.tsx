@@ -38,12 +38,12 @@ const slider_setting = {
 
 // instagram images
 const instagram_data = [
-  { link: "https://www.instagram.com", img: "/assets/img/insta/insta-6.jpg" },
-  { link: "https://www.instagram.com", img: "/assets/img/insta/insta-2.jpg" },
-  { link: "https://www.instagram.com", img: "/assets/img/insta/insta-3.jpg" },
-  { link: "https://www.instagram.com", img: "/assets/img/insta/insta-4.jpg" },
-  { link: "https://www.instagram.com", img: "/assets/img/insta/insta-5.jpg" },
-  { link: "https://www.instagram.com", img: "/assets/img/insta/insta-6.jpg" },
+  { link: "https://www.instagram.com", img: "/assets/img/insta/1.png" },
+  { link: "https://www.instagram.com", img: "/assets/img/insta/2.jpeg" },
+  { link: "https://www.instagram.com", img: "/assets/img/insta/3.png" },
+  { link: "https://www.instagram.com", img: "/assets/img/insta/4.png" },
+  { link: "https://www.instagram.com", img: "/assets/img/insta/8.png" },
+  { link: "https://www.instagram.com", img: "/assets/img/insta/2.jpeg" },
 ];
 
 const InstagramArea = () => {
