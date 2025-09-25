@@ -45,7 +45,7 @@ const blog_data = [
   image: blog_4,
   author: "Admin",
   category: "Healthy Eating",
-  desc: "Dates are a natural source of instant energy, fiber, and essential minerals, making them the best pre-workout snack.",
+  desc: "Dates are a natural source of instant energy, fiber, and essential minerals, making best pre-workout snack.",
   date: "DEC 12. 2023",
   blog: "home",
 },
