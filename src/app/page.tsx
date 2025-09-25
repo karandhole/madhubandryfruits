@@ -19,7 +19,7 @@ import ProductBrandFeature from "@/components/product/feature/product-brand-feat
 import InstagramArea from "@/components/instagram/instagram-area";
 
 export const metadata: Metadata = {
-  title: "Orfarm - Multipurpose eCommerce Next js Template"
+  title: "Madhuban Store"
 };
 
 export default function HomePage() {
