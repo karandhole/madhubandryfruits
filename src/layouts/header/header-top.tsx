@@ -12,9 +12,9 @@ const HeaderTop = () => {
           <div className="col-lg-6 col-md-12">
             <div className="header__top-left">
               <span>
-                Due to the <strong>COVID-19</strong> epidemic, orders may be
-                processed with a slight delay.
-              </span>
+  Due to high demand for <strong>premium dry fruits</strong>, orders may take a little extra time to be processed and delivered.
+</span>
+
             </div>
           </div>
           <div className="col-lg-6 col-md-12">
