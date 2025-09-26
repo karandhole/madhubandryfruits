@@ -152,7 +152,7 @@ const ProductSingle = ({ product, progress, cls, offer_style, price_space }: IPr
           </div>
         )}
       </div>
-      <div className="tpproduct__hover-text">
+      <div >
         <div className="tpproduct__hover-btn d-flex justify-content-center mb-10">
           {isItemAddToCart ? (
             <Link href="/cart" className="tp-btn-2 pointer">
@@ -167,13 +167,7 @@ const ProductSingle = ({ product, progress, cls, offer_style, price_space }: IPr
             </a>
           )}
         </div>
-        <div className="tpproduct__descrip">
-          <ul>
-            <li>Category: Organic</li>
-            <li>MFG: August 4.2021</li>
-            <li>LIFE: 60 days</li>
-          </ul>
-        </div>
+        
       </div>
     </div>
   );

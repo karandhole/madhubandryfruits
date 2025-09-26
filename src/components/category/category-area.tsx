@@ -13,7 +13,7 @@ type IProps = {
   showCount?: boolean;
 };
 
-const CategoryArea = ({cls,perView=8,showCount=true}:IProps) => {
+const CategoryArea = ({ cls, perView = 8, showCount = true }: IProps) => {
   const router = useRouter();
   // slider setting
   const slider_setting = {
@@ -25,7 +25,7 @@ const CategoryArea = ({cls,perView=8,showCount=true}:IProps) => {
     },
     breakpoints: {
       "1400": {
-        slidesPerView: perView,
+        slidesPerView: 6,
       },
       "1200": {
         slidesPerView: 6,
@@ -46,24 +46,33 @@ const CategoryArea = ({cls,perView=8,showCount=true}:IProps) => {
   };
 
   // handle search 
-  const handleCategorySearch = (title:string) => {
+  const handleCategorySearch = (title: string) => {
     router.push(`/search?category=${title.split(" ").join("-").toLowerCase()}`);
   }
   return (
     <>
+      <div className="row">
+        <div className="col-lg-12 text-center">
+          <div className="tpsection mb-35">
+        
+            <h4 className="tpsection__title">SHOP BY CATEGORIES</h4>
+           
+          </div>
+        </div>
+      </div>
       <Swiper {...slider_setting} className={`swiper-container ${cls}`}>
         {category_data.map((item) => (
           <SwiperSlide key={item.id}>
             <div className="category__item mb-30">
               <div className="category__thumb fix mb-15">
-                <a onClick={() => handleCategorySearch(item.name)} className="pointer">
-                  <Image
-                    src={item.img}
-                    width={80}
-                    height={80}
-                    alt="category-thumb"
-                  />
-                </a>
+                {/* <a onClick={() => handleCategorySearch(item.name)} className="pointer"> </a> */}
+                <Image
+                  src={item.img}
+                  width={80}
+                  height={80}
+                  alt="category-thumb"
+                />
+
               </div>
               <div className="category__content">
                 <h5 className="category__title">

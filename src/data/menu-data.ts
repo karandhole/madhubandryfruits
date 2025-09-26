@@ -99,7 +99,7 @@ const menu_data:IMenuData[] = [
   {
     id:5,
     name:'About Us',
-    link:'/',
+    link:'/about',
   },
   {
     id:6,
@@ -163,7 +163,7 @@ export const mobile_menus = [
   {
     id:6,
     name:'About Us',
-    link:'/',
+    link:'/about-us',
   },
   {
     id:7,

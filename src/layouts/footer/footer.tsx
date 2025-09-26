@@ -11,7 +11,7 @@ type IProps = {
 const Footer = ({style_2=false}:IProps) => {
   return (
     <footer>
-       <div className={`tpfooter__area theme-bg-2 ${style_2 ? "pt-55 footer-border" : ""}`}>
+       <div className={`tpfooter__area footer-bg theme-bg-2 ${style_2 ? "pt-55 footer-border" : ""}`}>
        <div className="tpfooter__top pb-15">
           <div className="container">
              <div className="row">
@@ -89,7 +89,7 @@ const Footer = ({style_2=false}:IProps) => {
              <div className="row">
                 <div className="col-lg-6 col-md-7 col-sm-12">
                    <div className="tpfooter__copyright">
-                      <span className="tpfooter__copyright-text">Copyright © <a href="#">ORFARM</a> all rights reserved. Powered by <a href="#">ThemePure</a>.</span>
+                      <span className="tpfooter__copyright-text">Copyright © <a href="#">MADHUBAN</a> all rights reserved. Powered by <a href="#">Madhuban Store</a>.</span>
                    </div>
                 </div>
                 <div className="col-lg-6 col-md-5 col-sm-12">

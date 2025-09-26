@@ -4,17 +4,16 @@ const product_data: IProductData[] = [
   {
     id: 1,
     sku: "001",
-    title: "1kg purple onion/ onion/ dried onion Kinh men",
-    price: 20,
-    sale_price: 18,
+     title: "Almonds 100 gms",
+    price: 500,
+    sale_price: 499,
     image: {
       id: 1,
-      original: "/assets/img/product/new/product-img-1.jpg",
-      thumbnail: "/assets/img/product/new/product-img-1-thumb.jpg",
+      original: "/assets/img/product/new/first.png"
     },
     category: {
-      parent: 'Vegetables',
-      child: 'Onion',
+      parent: 'Almonds',
+      child: 'Exotic Dry Fruits',
     },
     brand: "Super Market",
     quantity: 20,
@@ -70,16 +69,16 @@ const product_data: IProductData[] = [
   {
     id: 2,
     sku: "002",
-    title: "Fresh And Sour Lemon Like An Old Lover",
-    price: 25,
-    sale_price: 22,
+    title: "Cashew Nuts",
+    price: 700,
     image: {
       id: 1,
-      original: "/assets/img/product/new/product-img-2.jpg",
+      original: "/assets/img/product/new/second.png",
+      thumbnail: "/assets/img/product/new/second.png",
     },
     category: {
-      parent: 'Vegetables',
-      child: 'Lemon',
+      parent: 'Cashew',
+      child: 'Exotic Dry Fruits',
     },
     brand: "Super Market",
     quantity: 30,
@@ -122,17 +121,16 @@ const product_data: IProductData[] = [
   {
     id: 3,
     sku: "003",
-    title: "Fresh Organic SuSu Cheap Tasty Tonic",
-    price: 25,
-    sale_price: 24,
+    title: " Pure Walnuts 200g",
+    price: 299,
     image: {
       id: 1,
-      original: "/assets/img/product/new/product-img-3.jpg",
-      thumbnail: "/assets/img/product/new/product-img-3-thumb.jpg",
+      original: "/assets/img/product/new/third.png",
+      thumbnail: "/assets/img/product/new/third.png",
     },
     category: {
-      parent: 'Vegetables',
-      child: 'Kiwi',
+      parent: 'Walnuts',
+      child: 'Exotic Dry Fruits',
     },
     brand: "Super Market",
     quantity: 45,
@@ -180,16 +178,16 @@ const product_data: IProductData[] = [
   {
     id: 4,
     sku: "004",
-    title: "Ginger Fresh, Whole, Organic – 250gram",
-    price: 30,
-    sale_price: 27,
+   title: "Premium Quality Pista 50g ",
+    price: 200,
     image: {
       id: 1,
-      original: "/assets/img/product/new/product-img-4.jpg",
+      original: "/assets/img/product/new/fourth.png",
+      thumbnail: "/assets/img/product/new/fourth.png",
     },
     category: {
-      parent: 'Vegetables',
-      child: 'Ginger',
+        parent: 'Pista',
+      child: 'Exotic Dry Fruits',
     },
     brand: "Super Market",
     quantity: 30,
@@ -232,17 +230,15 @@ const product_data: IProductData[] = [
   {
     id: 5,
     sku: "005",
-    title: "Guava Leaves From Trees Grown In South",
-    price: 35,
-    sale_price: 30,
+    title: "Raisins (Kishmish) 500g",
+    price: 399,
     image: {
       id: 1,
-      original: "/assets/img/product/new/product-img-5.jpg",
-      thumbnail: "/assets/img/product/new/product-img-5-thumb.jpg",
+      original: "/assets/img/product/new/five.png"
     },
     category: {
-      parent: 'Vegetables',
-      child: 'Apricots',
+      parent: 'Raisins',
+      child: 'Exotic Dry Fruits',
     },
     brand: "Super Market",
     quantity: 50,
@@ -293,16 +289,15 @@ const product_data: IProductData[] = [
   {
     id: 6,
     sku: "006",
-    title: "Lettuce Fresh Produce Vegetables",
-    price: 10,
+     title: "Premium Dates 500g",
+    price: 250,
     image: {
       id: 1,
-      original: "/assets/img/product/new/product-img-6.jpg",
-      thumbnail: "/assets/img/product/new/product-img-6-thumb.jpg",
+      original: "/assets/img/product/new/six.png"
     },
     category: {
-      parent: 'Vegetables',
-      child: 'Cauliflower',
+      parent: 'Premium',
+      child: 'Exotic Dry Fruits',
     },
     brand: "Super Market",
     quantity: 30,
@@ -830,20 +825,20 @@ const product_data: IProductData[] = [
     created_at: "2023-07-09T07:18:25.000000Z",
     updated_at: "2023-09-29T15:23:32.000000Z",
   },
-
+/////////////////////////////////////////////////////////////////****************************************************** */
   {
     id: 16,
     sku: "0016",
-    title: "Banana, Beautiful Skin, Good For Health 1Kg",
-    price: 20,
-    sale_price: 19,
+    title: "Almonds 100 gms",
+    price: 500,
+    sale_price: 499,
     image: {
       id: 1,
-      original: "/assets/img/product/new/product-img-15.jpg"
+      original: "/assets/img/product/new/first.png"
     },
     category: {
-      parent: 'Fresh Bakery',
-      child: 'Strawberry',
+      parent: 'Almonds',
+      child: 'Exotic Dry Fruits',
     },
     brand: "Vons",
     quantity: 40,
@@ -886,16 +881,16 @@ const product_data: IProductData[] = [
   {
     id: 17,
     sku: "0017",
-    title: "Fresh Organic Dragon Fruit Vietnam Number-1",
-    price: 32,
+    title: "Cashew Nuts",
+    price: 700,
     image: {
       id: 1,
-      original: "/assets/img/product/new/product-img-16.jpg",
-      thumbnail: "/assets/img/product/new/product-img-16-thumb.jpg",
+      original: "/assets/img/product/new/second.png",
+      thumbnail: "/assets/img/product/new/second.png",
     },
     category: {
-      parent: 'Fresh Bakery',
-      child: 'Dragon Fruit',
+      parent: 'Cashew',
+      child: 'Exotic Dry Fruits',
     },
     brand: "Vons",
     quantity: 42,
@@ -942,16 +937,16 @@ const product_data: IProductData[] = [
   {
     id: 18,
     sku: "0018",
-    title: "Fresh Organic Lemon Leaves USA 5kg",
-    price: 31,
+    title: " Pure Walnuts 200g",
+    price: 299,
     image: {
       id: 1,
-      original: "/assets/img/product/new/product-img-17.jpg",
-      thumbnail: "/assets/img/product/new/product-img-17-thumb.jpg",
+      original: "/assets/img/product/new/third.png",
+      thumbnail: "/assets/img/product/new/third.png",
     },
     category: {
-      parent: 'Fresh Bakery',
-      child: 'Lime Fruit',
+      parent: 'Walnuts',
+      child: 'Exotic Dry Fruits',
     },
     brand: "Ralphs",
     quantity: 42,
@@ -998,16 +993,16 @@ const product_data: IProductData[] = [
   {
     id: 19,
     sku: "0019",
-    title: "Fresh Organic Mustard Leaves Quaker Popped",
-    price: 54,
+    title: "Premium Quality Pista 50g ",
+    price: 200,
     image: {
       id: 1,
-      original: "/assets/img/product/new/product-img-18.jpg",
-      thumbnail: "/assets/img/product/new/product-img-18-thumb.jpg",
+      original: "/assets/img/product/new/fourth.png",
+      thumbnail: "/assets/img/product/new/fourth.png",
     },
     category: {
-      parent: 'Fresh Bakery',
-      child: 'Apricot Fruit',
+        parent: 'Pista',
+      child: 'Exotic Dry Fruits',
     },
     brand: "Ralphs",
     quantity: 47,
@@ -1055,15 +1050,15 @@ const product_data: IProductData[] = [
   {
     id: 20,
     sku: "0020",
-    title: "Quaker Popped Rice Crisps Snacks Chocolate",
-    price: 33,
+    title: "Raisins (Kishmish) 500g",
+    price: 399,
     image: {
       id: 1,
-      original: "/assets/img/product/new/product-img-19.jpg"
+      original: "/assets/img/product/new/five.png"
     },
     category: {
-      parent: 'Biscuits Snack',
-      child: 'Rice Crisps',
+      parent: 'Raisins',
+      child: 'Exotic Dry Fruits',
     },
     brand: "Ralphs",
     quantity: 53,
@@ -1106,15 +1101,15 @@ const product_data: IProductData[] = [
   {
     id: 21,
     sku: "0021",
-    title: "Laffy Taffy Laff Bites Gone Bananas – 4 Packs",
-    price: 55,
+    title: "Premium Dates 500g",
+    price: 250,
     image: {
       id: 1,
-      original: "/assets/img/product/new/product-img-20.jpg"
+      original: "/assets/img/product/new/six.png"
     },
     category: {
-      parent: 'Biscuits Snack',
-      child: 'Laffy Taffy',
+      parent: 'Premium',
+      child: 'Exotic Dry Fruits',
     },
     brand: "ShopRite",
     quantity: 55,
@@ -1163,7 +1158,7 @@ const product_data: IProductData[] = [
     sale_price: 100,
     image: {
       id: 1,
-      original: "/assets/img/product/new/product-img-21.jpg"
+      original: "/assets/img/product/new/five.png"
     },
     category: {
       parent: 'Fresh Meat',
@@ -1215,8 +1210,8 @@ const product_data: IProductData[] = [
     sale_price: 120,
     image: {
       id: 1,
-      original: "/assets/img/product/new/product-img-22.jpg",
-      thumbnail: "/assets/img/product/new/product-img-22-thumb.jpg",
+      original: "/assets/img/product/new/six.png",
+      thumbnail: "/assets/img/product/new/six.png",
     },
     category: {
       parent: 'Fresh Meat',
@@ -1272,8 +1267,8 @@ const product_data: IProductData[] = [
     sale_price: 70,
     image: {
       id: 1,
-      original: "/assets/img/product/new/product-img-23.jpg",
-      thumbnail: "/assets/img/product/new/product-img-23-thumb.jpg",
+      original: "/assets/img/product/new/six.png",
+      thumbnail: "/assets/img/product/new/six.png",
     },
     category: {
       parent: 'Fresh Meat',
@@ -1329,8 +1324,8 @@ const product_data: IProductData[] = [
     price: 19,
     image: {
       id: 1,
-      original: "/assets/img/product/new/product-img-13.jpg",
-      thumbnail: "/assets/img/product/new/product-img-13-thumb.jpg",
+      original: "/assets/img/product/new/fourth.png",
+      thumbnail: "/assets/img/product/new/fourth.png",
     },
     category: {
       parent: 'Fresh Milk',

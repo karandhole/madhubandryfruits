@@ -9,13 +9,14 @@ const ProductBannerAreaThree = () => {
             <div className="col-12">
               <div
                 className="tpbannertwo text-center pt-40 pb-45 tpbannertwo__bg"
-                style={{backgroundImage: "url(/assets/img/banner/tpbanner-1.jpg)"}}
+                style={{ backgroundImage: "url(/assets/img/banner/banner5.png)" }}
               >
-                <span className="tpbannertwo__sub-title mb-5">The Salad</span>
+                <span className="tpbannertwo__sub-title mb-5">The Dry Fruits</span>
                 <h5 className="tpbannertwo__title mb-30">
-                  Fresh & Natural <br /> Healthy Food Special Offer
+                  Fresh & Premium <br /> Healthy Dry Fruits Special Offer
                 </h5>
-                <p>Do not miss the current offers of us!</p>
+                <p>Do not miss our exclusive dry fruit deals!</p>
+
               </div>
             </div>
           </div>

@@ -17,6 +17,7 @@ import ChooseArea from "@/components/choose-us/choose-area";
 import ProductBannerAreaThree from "@/components/banner/product-banner-area-3";
 import ProductBrandFeature from "@/components/product/feature/product-brand-feature";
 import InstagramArea from "@/components/instagram/instagram-area";
+import AboutAreaThree from "@/components/about/about-area-3";
 
 export const metadata: Metadata = {
   title: "Madhuban Store"
@@ -61,6 +62,7 @@ export default function HomePage() {
         {/* product brand feature start */}
         <ProductBrandFeature />
         {/* product brand feature end */}
+        <AboutAreaThree/>
 
         {/* deal offer start */}
         <OfferCountdownBanner />
@@ -70,7 +72,7 @@ export default function HomePage() {
         <BlogItems />
         {/* blogs end */}
          {/* instagram area start */}
-        <InstagramArea />
+        {/* <InstagramArea /> */}
         {/* instagram area end */}
 
 

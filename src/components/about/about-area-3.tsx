@@ -1,11 +1,11 @@
 import React from "react";
 import Image, { StaticImageData } from "next/image";
-import about_1 from "@/assets/img/about/about-1.png";
-import about_2 from "@/assets/img/about/about-2.png";
+import about_1 from "@/assets/img/about/about2.png";
+import about_2 from "@/assets/img/about/about1.png";
 import about_3 from "@/assets/img/about/about-3.png";
 
 // about item
-function AboutItem({ img, title }: { img: StaticImageData; title: string }) {
+function AboutItem({ img, title , desc }: { img: StaticImageData; title: string, desc:string }) {
   return (
     <div className="col-lg-4 col-md-6 col-sm-6">
       <div className="img-box__wrapper text-center mb-30">
@@ -15,8 +15,7 @@ function AboutItem({ img, title }: { img: StaticImageData; title: string }) {
         <div className="img-box__content">
           <h4 className="img-box__title mb-10">{title}</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit, sed
-            do eiusmod tempor labore <br /> et dolore dignissimos cumque.
+            {desc}
           </p>
         </div>
       </div>
@@ -45,9 +44,9 @@ const AboutAreaThree = ({style_2=false}: IProps) => {
           </div>
         )}
         <div className="row">
-          <AboutItem img={about_1} title={"Who We Are"} />
-          <AboutItem img={about_2} title={"Our Products"} />
-          <AboutItem img={about_3} title={"How We Work"} />
+          <AboutItem img={about_1} title={"Who We Are"} desc={"Madhuban is a trusted dry fruit store bringing premium quality, freshness, and nutrition always."} />
+          <AboutItem img={about_2} title={"Our Products"} desc={"We offer handpicked almonds, cashews, pistachios, walnuts, figs, dates, raisins, and more."} />
+          <AboutItem img={about_3} title={"How We Work"} desc={"Our process ensures careful sourcing, strict quality checks, and freshness-sealed packaging."} />
         </div>
       </div>
     </section>
