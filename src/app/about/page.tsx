@@ -12,7 +12,7 @@ import Footer from "@/layouts/footer/footer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About - Orfarm",
+  title: "Madhuban Foods",
 };
 
 export default function AboutPage() {
@@ -24,7 +24,7 @@ export default function AboutPage() {
 
       <main>
         {/* breadcrumb area start */}
-        <section
+        {/* <section
           className="about-area tpabout__inner-bg pt-175 pb-170 mb-50"
           style={{backgroundImage: `url(/assets/img/banner/about-bg-1.png)`}}
         >
@@ -46,7 +46,7 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* breadcrumb area end */}
 
         {/* about area start */}
