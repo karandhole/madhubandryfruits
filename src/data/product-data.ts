@@ -73,7 +73,7 @@ const product_data: IProductData[] = [
     unit: '2kg',
     gallery: [
       "/assets/img/product/new/second.png",
-      "/assets/img/product/new/second.png",
+
     ],
     description: "Premium whole cashew nuts sourced directly from trusted farms. Known for their buttery taste and crunchy texture, our cashews are packed with essential nutrients, healthy fats, and proteins. Perfect for snacking, cooking, or adding richness to sweets and gravies. Hygienically processed and packed to ensure freshness and natural flavor in every bite.",
     videoId: null,
@@ -130,7 +130,7 @@ const product_data: IProductData[] = [
     unit: '2kg',
     gallery: [
       "/assets/img/product/new/third.png",
-      "/assets/img/product/new/third.png",
+     
     ],
     description: "Premium quality walnuts sourced from the best farms, known for their rich taste and high nutritional value. Walnuts are a powerhouse of Omega-3 fatty acids, antioxidants, and essential minerals that support brain health and overall well-being. Carefully cleaned, graded, and hygienically packed to retain natural crunch, flavor, and freshness. Perfect as a healthy snack or for enhancing your favorite recipes and desserts.",
     videoId: null,
@@ -187,7 +187,7 @@ const product_data: IProductData[] = [
     unit: '4pc(s)',
     gallery: [
       "/assets/img/product/new/fourth.png",
-      "/assets/img/product/new/fourth.png",
+     
     ],
     description: "Premium quality pistachios sourced from the best farms, known for their vibrant green kernels and rich, nutty flavor. Packed with protein, fiber, and healthy fats, pistachios are a delicious and nutritious snack choice. Hygienically sorted and packed to preserve natural freshness and crunch. Perfect for snacking, gifting, or adding to sweets, desserts, and savory dishes.",
     videoId: null,
