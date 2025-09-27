@@ -33,12 +33,13 @@ const ProductSmSingle = ({ product }: IProps) => {
           <Link href={`/shop-details/${product.id}`}>{product.title}</Link>
         </span>
         <div className="tpproduct__rating mb-5">
-         <Rating allowFraction size={16} initialValue={averageRating(product.reviews)} readonly={true} />
+          <Rating allowFraction size={16} initialValue={averageRating(product.reviews)} readonly={true} />
         </div>
         <div className="tpproduct__price">
-          <span>${product.sale_price ? product.sale_price : product.price} </span>
-          {product.sale_price && <del>${product.price}</del>}
+          <span>₹{product.sale_price ? product.sale_price : product.price}</span>
+          {product.sale_price && <del>₹{product.price}</del>}
         </div>
+
       </div>
     </div>
   );
