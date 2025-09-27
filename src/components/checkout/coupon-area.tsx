@@ -6,7 +6,7 @@ const CouponArea = () => {
   const [openCoupon, setOpenCoupon] = useState<boolean>(false);
   return (
     <section className="coupon-area pt-10 pb-30">
-      <div className="container">
+      {/* <div className="container">
         <div className="row">
           <div className="col-md-6">
             <div className="coupon-accordion">
@@ -60,7 +60,7 @@ const CouponArea = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
