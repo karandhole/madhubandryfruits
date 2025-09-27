@@ -13,32 +13,32 @@ type IProps = {
   setIsCartSidebarOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const CartSidebar = ({isCartSidebarOpen,setIsCartSidebarOpen}:IProps) => {
+const CartSidebar = ({ isCartSidebarOpen, setIsCartSidebarOpen }: IProps) => {
   const cartItems = useAppSelector((state) => state.cart.cart_products);
-  const dispatch = useAppDispatch(); 
+  const dispatch = useAppDispatch();
   const { total } = useCartInfo();
 
   return (
     <>
-      <div 
-       className={`tpcartinfo tp-cart-info-area p-relative ${isCartSidebarOpen ? "tp-sidebar-opened" : ""}`}>
+      <div
+        className={`tpcartinfo tp-cart-info-area p-relative ${isCartSidebarOpen ? "tp-sidebar-opened" : ""}`}>
         <button className="tpcart__close" onClick={() => setIsCartSidebarOpen(false)}>
           <i className="icon-x"></i>
         </button>
 
-          <div className="tpcart">
-            <h4 className="tpcart__title">Your Cart</h4>
-            {/* if no item in cart */}
-            {cartItems.length === 0 && (
-              <div className="cartmini__empty text-center pt-100">
-                <Image src={empty_cart_img} alt="empty-cart-img" />
-                <p>Your Cart is empty</p>
-                <Link href="/shop" className="tp-btn-2 mt-10">
-                  Go to Shop
-                </Link>
-              </div>
-            )}
-            {cartItems.length > 0 && (
+        <div className="tpcart">
+          <h4 className="tpcart__title">Your Cart</h4>
+          {/* if no item in cart */}
+          {cartItems.length === 0 && (
+            <div className="cartmini__empty text-center pt-100">
+              <Image src={empty_cart_img} alt="empty-cart-img" />
+              <p>Your Cart is empty</p>
+              <Link href="/shop" className="tp-btn-2 mt-10">
+                Go to Shop
+              </Link>
+            </div>
+          )}
+          {cartItems.length > 0 && (
             <div className="tpcart__product">
               <div className="tpcart__product-list">
                 <ul>
@@ -67,8 +67,9 @@ const CartSidebar = ({isCartSidebarOpen,setIsCartSidebarOpen}:IProps) => {
                               {item.orderQuantity} x {" "}
                             </span>
                             <span className="new-price">
-                              ${item.orderQuantity ? item.price * item.orderQuantity : item.price}
+                              ₹{item.orderQuantity ? (item.price * item.orderQuantity).toFixed(2) : item.price.toFixed(2)}
                             </span>
+
                           </div>
                         </div>
                       </div>
@@ -79,7 +80,7 @@ const CartSidebar = ({isCartSidebarOpen,setIsCartSidebarOpen}:IProps) => {
               <div className="tpcart__checkout">
                 <div className="tpcart__total-price d-flex justify-content-between align-items-center">
                   <span> Subtotal:</span>
-                  <span className="heilight-price"> ${total.toFixed(2)}</span>
+                <span className="heilight-price">₹{total.toFixed(2)}</span>
                 </div>
                 <div className="tpcart__checkout-btn">
                   <Link className="tpcart-btn mb-10" href="/cart">
@@ -96,8 +97,8 @@ const CartSidebar = ({isCartSidebarOpen,setIsCartSidebarOpen}:IProps) => {
                 </span>
               </div>
             </div>
-            )}
-          </div>
+          )}
+        </div>
       </div>
       <div onClick={() => setIsCartSidebarOpen(false)} className={`cartbody-overlay ${isCartSidebarOpen ? "opened" : ""}`}></div>
     </>

@@ -97,9 +97,9 @@ const HeaderTwo = () => {
                         <div className="header__info-search tpcolor__purple ml-10 d-none d-sm-block">
                            <button onClick={() => setIsSearchOpen(true)} className="tp-search-toggle"><i className="icon-search"></i></button>
                         </div>
-                        <div className="header__info-user tpcolor__yellow ml-10 d-none d-sm-block">
+                        {/* <div className="header__info-user tpcolor__yellow ml-10 d-none d-sm-block">
                            <Link href="/login"><i className="icon-user"></i></Link>
-                        </div>
+                        </div> */}
                         <div className="header__info-wishlist tpcolor__greenish ml-10 d-none d-sm-block">
                            <Link href="/wishlist"><i className="icon-heart icons"></i></Link>
                         </div>

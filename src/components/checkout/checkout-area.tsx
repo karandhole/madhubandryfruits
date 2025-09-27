@@ -64,7 +64,45 @@ const CheckoutArea = () => {
       reset()
    });
 
+////////////////////////////////////////////////////////////////
 
+   const sendOrderToWeb3Forms = async (formData: FormData) => {
+  const apiKey = "8120df47-33e3-4f6a-bce2-31ed0db12ca6"; // Replace with your API key
+
+  const payload = {
+    ...formData,
+    products: cart_products.map(p => `${p.title} × ${p.orderQuantity}`).join(", "),
+    shipping: shipCost === "free" ? "Free Shipping" : `₹${shipCost}`,
+    total: typeof shipCost === "number" ? total + shipCost : total,
+    access_key: apiKey,
+  };
+
+  try {
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    const result = await response.json();
+    console.log(result);
+    if (result.success) alert("Order submitted successfully!");
+  } catch (error) {
+    console.error(error);
+    alert("Failed to submit order. Try again!");
+  }
+};
+
+const handlePlaceOrder = handleSubmit((data) => {
+  // Send to WhatsApp
+  sendOrderToWhatsApp();
+
+  // Send to Web3Forms
+  sendOrderToWeb3Forms(data);
+
+  // Reset form
+  reset();
+});
+/////////////////////////////////////////////
 
    const sendOrderToWhatsApp = () => {
       const phoneNumber = "919021568402"; // Replace with your WhatsApp number (without +)
@@ -80,7 +118,7 @@ const CheckoutArea = () => {
 
       // Shipping
       const shippingText =
-         shipCost === "free" ? "Free Shipping" : '₹${shipCost.toFixed(2)}';
+         shipCost === "free" ? "Free Shipping" :`₹${(shipCost as number).toFixed(2)}`;
 
       // Final Total
       const finalTotal =
@@ -113,7 +151,7 @@ Shipping: ${shippingText}
             {cart_products.length === 0 &&
                <div className='text-center pt-100'>
                   <h3>Your cart is empty</h3>
-                  <Link href="/shop" className="tp-btn-2 mt-10">Return to shop</Link>
+                  <Link href="/shop-2" className="tp-btn-2 mt-10">Return to shop</Link>
                </div>
             }
             {cart_products.length > 0 &&
@@ -128,7 +166,7 @@ Shipping: ${shippingText}
                                     <label>Country <span className="required">*</span></label>
                                     <select id='country' {...register("country")}>
                                        <option defaultValue="united-states">India</option>
-                                     
+
                                     </select>
                                     <ErrorMsg msg={errors.country?.message!} />
                                  </div>
@@ -233,15 +271,18 @@ Shipping: ${shippingText}
                                                 × {product.orderQuantity}</strong>
                                           </td>
                                           <td className="product-total">
-                                             <span className="amount">${product.sale_price ? product.sale_price.toFixed(2) : product.price.toFixed(2)}</span>
+                                             <span className="amount">
+                                                ₹{product.sale_price ? product.sale_price.toFixed(2) : product.price.toFixed(2)}
+                                             </span>
                                           </td>
+
                                        </tr>
                                     ))}
                                  </tbody>
                                  <tfoot>
                                     <tr className="cart-subtotal">
                                        <th>Cart Subtotal</th>
-                                       <td><span className="amount">${total.toFixed(2)}</span></td>
+                                       <td><span className="amount">₹{total.toFixed(2)}</span></td>
                                     </tr>
                                     <tr className="shipping">
                                        <th>Shipping</th>
@@ -250,7 +291,7 @@ Shipping: ${shippingText}
                                              <li>
                                                 <input onChange={() => setShipCost(7.00)} checked={shipCost === 7.00} type="radio" id='shipping' name="shipping" />
                                                 <label htmlFor='shipping'>
-                                                   Flat Rate: <span className="amount">$7.00</span>
+                                                   Flat Rate: <span className="amount">₹7.00</span>
                                                 </label>
                                              </li>
                                              <li>
@@ -265,8 +306,9 @@ Shipping: ${shippingText}
                                        <td>
                                           <strong>
                                              <span className="amount">
-                                                ${typeof shipCost === 'number' ? (total + shipCost).toFixed(2) : total.toFixed(2)}
+                                                ₹{typeof shipCost === 'number' ? (total + shipCost).toFixed(2) : total.toFixed(2)}
                                              </span>
+
                                           </strong>
                                        </td>
                                     </tr>
@@ -276,7 +318,7 @@ Shipping: ${shippingText}
                            <div className="payment-method">
                               {/* Checkout Order */}
                               <div className="order-button-payment mt-20">
-                                 <button onClick={sendOrderToWhatsApp} className="tp-btn tp-color-btn w-100 banner-animation">Place order</button>
+                                 <button type="button" onClick={handlePlaceOrder} className="tp-btn tp-color-btn w-100 banner-animation">Place order</button>
                               </div>
                               {/* Checkout Order */}
                            </div>

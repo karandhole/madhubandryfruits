@@ -107,7 +107,7 @@ const MobileSidebar = ({ isSidebarOpen, setIsSidebarOpen }: IProps) => {
             </div>
           </div>
         </div>
-        <div className="tpsideinfo__account-link">
+        {/* <div className="tpsideinfo__account-link">
           <Link href="/login">
             <i className="icon-user icons"></i> Login / Register
           </Link>
@@ -116,7 +116,7 @@ const MobileSidebar = ({ isSidebarOpen, setIsSidebarOpen }: IProps) => {
           <Link href="/wishlist">
             <i className="icon-heart"></i> Wishlist
           </Link>
-        </div>
+        </div> */}
       </div>
 
       {/* overlay start  */}
