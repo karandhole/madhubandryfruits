@@ -61,7 +61,7 @@ export const mobile_menus = [
   {
     id:2,
     name:'Shop',
-    link:'/shop',
+    link:'/shop-2',
     
   },
   // {
