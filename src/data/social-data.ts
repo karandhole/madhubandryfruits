@@ -20,16 +20,7 @@ const social_links:ISocial[] = [
     icon: "fab fa-youtube",
     name: "Youtube",
   },
-  {
-    link: "https://www.pinterest.com/",
-    icon: "fab fa-pinterest-p",
-    name: "Pinterest",
-  },
-  {
-    link: "https://www.skype.com/en/",
-    icon: "fab fa-skype",
-    name: "Skype",
-  },
+ 
 ]
 
 export default social_links;

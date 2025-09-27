@@ -5,7 +5,7 @@ import ProductBrandSingle from '../product-single/product-sm-single';
 import brand_thumb from '@/assets/img/brand/brand-thumb-1.png';
 
 const ProductBrandFeature = () => {
-  const brand_products = [...product_data].filter(p => p.brand === 'Super Market');
+  const brand_products = [...product_data].filter(p => p.brand === 'drufruits');
   return (
     <section className="brand-product grey-bg pb-60">
       <div className="container">

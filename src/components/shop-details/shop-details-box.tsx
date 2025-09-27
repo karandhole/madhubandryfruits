@@ -13,7 +13,7 @@ type IProps = {
 };
 
 const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
-  const {gallery,image,price,productInfoList,quantity,color,tags,category} = product;
+  const { gallery, image, price, productInfoList, quantity, color, tags, category } = product;
   const [activeImg, setActiveImg] = React.useState(image.original);
   const { orderQuantity } = useAppSelector((state) => state.cart);
   const dispatch = useAppDispatch();
@@ -69,9 +69,8 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
                     {gallery &&
                       gallery.map((img, index) => (
                         <button
-                          className={`nav-link ${
-                            img === activeImg ? "active" : ""
-                          }`}
+                          className={`nav-link ${img === activeImg ? "active" : ""
+                            }`}
                           key={index}
                           onClick={() => handleActiveImg(img)}
                         >
@@ -106,7 +105,14 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
           <div className="col-lg-6">
             <div className="product__details product__sticky">
               <div className="product__details-price-box">
-                <h5 className="product__details-price">${price.toFixed(2)}</h5>
+                <h5 className="product__details-price">
+                  {new Intl.NumberFormat("en-IN", {
+                    style: "currency",
+                    currency: "INR",
+                    minimumFractionDigits: 2,
+                  }).format(price)}
+                </h5>
+
                 {productInfoList && (
                   <ul className="product__details-info-list">
                     {productInfoList.map((item, index) => (
@@ -115,9 +121,10 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
                   </ul>
                 )}
               </div>
+
               <div className="product__color-switch mb-25">
-                <h4 className="product__color-title">Color: Select a color</h4>
-                <div className="tpshop__widget-color-box d-flex align-items-center">
+                {/* <h4 className="product__color-title">Color: Select a color</h4> */}
+                {/* <div className="tpshop__widget-color-box d-flex align-items-center">
                   {color &&
                     color.map((clr, i) => (
                       <div className="form-check" key={i}>
@@ -133,7 +140,7 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
                         ></label>
                       </div>
                     ))}
-                </div>
+                </div> */}
               </div>
               <div className="product__details-cart">
                 <div className="product__details-quantity d-flex align-items-center mb-15">
