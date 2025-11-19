@@ -156,14 +156,14 @@ const ProductSingle = ({ product, progress, cls, offer_style, price_space }: IPr
         <div className="tpproduct__hover-btn d-flex justify-content-center mb-10">
           {isItemAddToCart ? (
             <Link href="/cart" className="tp-btn-2 pointer">
-              Buy Now
+              Add to Cart
             </Link>
           ) : (
             <a
               onClick={() => dispatch(add_cart_product(product))}
               className="tp-btn-2 pointer"
             >
-              Buy Now
+              Add to Cart
             </a>
           )}
         </div>

@@ -60,16 +60,16 @@ export default function HomePage() {
         {/* product banner area end */}
 
         {/* product brand feature start */}
-        <ProductBrandFeature />
+        {/* <ProductBrandFeature /> */}
         {/* product brand feature end */}
         <AboutAreaThree/>
 
         {/* deal offer start */}
-        <OfferCountdownBanner />
+        {/* <OfferCountdownBanner /> */}
         {/* deal offer end */}
 
         {/* blogs start */}
-        <BlogItems />
+        {/* <BlogItems /> */}
         {/* blogs end */}
          {/* instagram area start */}
         {/* <InstagramArea /> */}
