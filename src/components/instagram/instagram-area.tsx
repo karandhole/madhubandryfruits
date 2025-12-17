@@ -16,10 +16,10 @@ const slider_setting = {
   },
   breakpoints: {
     "1400": {
-      slidesPerView: 6,
+      slidesPerView: 5,
     },
     "1200": {
-      slidesPerView: 5,
+      slidesPerView: 4,
     },
     "992": {
       slidesPerView: 4,
@@ -38,12 +38,12 @@ const slider_setting = {
 
 // instagram images
 const instagram_data = [
-  { link: "https://www.instagram.com", img: "/assets/img/insta/1.png" },
-  { link: "https://www.instagram.com", img: "/assets/img/insta/2.jpeg" },
-  { link: "https://www.instagram.com", img: "/assets/img/insta/3.png" },
-  { link: "https://www.instagram.com", img: "/assets/img/insta/4.png" },
-  { link: "https://www.instagram.com", img: "/assets/img/insta/9.jpg" },
-  { link: "https://www.instagram.com", img: "/assets/img/insta/2.jpeg" },
+  { link: "https://www.instagram.com", img: "/assets/img/insta/insta1.jpeg" },
+  { link: "https://www.instagram.com", img: "/assets/img/insta/insta1.jpeg" },
+  { link: "https://www.instagram.com", img: "/assets/img/insta/insta1.jpeg" },
+  { link: "https://www.instagram.com", img: "/assets/img/insta/insta1.jpeg" },
+  { link: "https://www.instagram.com", img: "/assets/img/insta/insta1.jpeg" },
+  { link: "https://www.instagram.com", img: "/assets/img/insta/insta1.jpeg" },
 ];
 
 const InstagramArea = () => {
@@ -53,12 +53,8 @@ const InstagramArea = () => {
         <div className="row">
           <div className="col-lg-12 text-center">
             <div className="tpsection mb-35">
-              <h4 className="tpsection__title">@DryFruitsDelight</h4>
-              <p>
-                Tag <Link href="/">@Madhuban Store</Link> in your Instagram photos with your
-                favorite <strong>dry fruits moments</strong> for a chance to be featured here.
-                <br /> Discover more healthy inspirations on our Instagram.
-              </p>
+              <h4 className="tpsection__title" id="title">@Social Media Reels</h4>
+              
             </div>
 
           </div>
@@ -72,7 +68,7 @@ const InstagramArea = () => {
                     src={data.img}
                     alt="thumb-img"
                     width={320}
-                    height={320}
+                    height={420}
                     style={{ width: "100%", height: "100%" }}
                   />
                 </a>

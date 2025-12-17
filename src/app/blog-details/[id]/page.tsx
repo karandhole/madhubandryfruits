@@ -25,7 +25,7 @@ export default function BlogDetailsPage({params}:{params:{id:string}}) {
           <>
             {" "}
             {/* breadcrumb area start */}
-            <BreadcrumbThree category={blog.category} title={blog.title} />
+            {/* <BreadcrumbThree category={blog.category} title={blog.title} /> */}
             {/* breadcrumb area end */}
             {/* blog details start */}
             <BlogDetailsArea blog={blog} />

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import category_data from "@/data/category-data";
 import { useRouter } from "next/navigation";
+import "./category.css";
 
 // prop type
 type IProps = {
@@ -54,31 +55,32 @@ const CategoryArea = ({ cls, perView = 8, showCount = true }: IProps) => {
       <div className="row">
         <div className="col-lg-12 text-center">
           <div className="tpsection mb-35">
-        
-            <h4 className="tpsection__title">SHOP BY CATEGORIES</h4>
-           
+
+            {/* <h4 className="tpsection__title">SHOP BY CATEGORIES</h4> */}
+
           </div>
         </div>
       </div>
-      <Swiper {...slider_setting} className={`swiper-container ${cls}`}>
-        {category_data.map((item) => (
-          <SwiperSlide key={item.id}>
-            <div className="category__item mb-30">
-              <div className="category__thumb fix mb-15">
-                {/* <a onClick={() => handleCategorySearch(item.name)} className="pointer"> </a> */}
-                <Image
-                  src={item.img}
-                  width={80}
-                  height={80}
-                  alt="category-thumb"
-                />
+      <div className="category-slider-wrapper">
+        <Swiper {...slider_setting} className={`swiper-container ${cls}`}>
+          {category_data.map((item) => (
+            <SwiperSlide key={item.id}>
+              <div className="category__item mb-30 ">
+                <div className="category__thumb fix mb-15 ">
+                  {/* <a onClick={() => handleCategorySearch(item.name)} className="pointer"> </a> */}
+                  <Image
+                    src={item.img}
+                    width={100}
+                    height={100}
+                    alt="category-thumb"
+                  />
 
-              </div>
-              <div className="category__content">
-                <h5 className="category__title">
-                  <Link href="/shop">{item.name}</Link>
-                </h5>
-                {/* {showCount && (
+                </div>
+                <div className="category__content">
+                  <h5 className="category__title">
+                    <Link href="/shop">{item.name}</Link>
+                  </h5>
+                  {/* {showCount && (
                   <span className="category__count">
                     {item.product_id.length <= 9 && item.product_id.length !== 0
                       ? `0${item.product_id.length}`
@@ -86,11 +88,12 @@ const CategoryArea = ({ cls, perView = 8, showCount = true }: IProps) => {
                     items
                   </span>
                 )} */}
+                </div>
               </div>
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </>
   );
 };

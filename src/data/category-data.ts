@@ -3,7 +3,7 @@ import { ICategoryData } from "@/types/category-d-t";
 const category_data:ICategoryData[] = [
   {
     id: 1,
-    img: "/assets/img/catagory/1.png",
+    img: "/assets/img/catagory/dates.png",
     name: "Almonds",
     slug: "Almonds",
     parent: "Almonds",
@@ -14,7 +14,7 @@ const category_data:ICategoryData[] = [
   },
   {
     id: 2,
-    img: "/assets/img/catagory/2.png",
+    img: "/assets/img/catagory/dates.png",
     name: "Cashews",
     slug: "Cashews",
     parent: "Cashews",
@@ -25,7 +25,7 @@ const category_data:ICategoryData[] = [
   },
   {
     id: 3,
-    img: "/assets/img/catagory/3.png",
+    img: "/assets/img/catagory/dates.png",
     name: "Walnuts",
     slug: "Walnuts",
     parent: "Walnuts",
@@ -36,7 +36,7 @@ const category_data:ICategoryData[] = [
   },
   {
     id: 4,
-    img: "/assets/img/catagory/4.png",
+    img: "/assets/img/catagory/dates.png",
     name: "pista",
     slug: "pista",
     parent: "pista",
@@ -47,7 +47,7 @@ const category_data:ICategoryData[] = [
   },
   {
     id: 5,
-    img: "/assets/img/catagory/5.png",
+    img: "/assets/img/catagory/dates.png",
     name: "raisins",
     slug: "raisins",
     parent: "raisins",
@@ -58,7 +58,7 @@ const category_data:ICategoryData[] = [
   },
   {
     id: 6,
-    img: "/assets/img/catagory/6.png",
+    img: "/assets/img/catagory/dates.png",
     name: "Dates",
     slug: "Dates",
     parent: "Dates",
@@ -69,7 +69,7 @@ const category_data:ICategoryData[] = [
   },
   {
     id: 7,
-    img: "/assets/img/catagory/7.png",
+    img: "/assets/img/catagory/seeds.png",
     name: "Figs (Anjeer)",
     slug: "Figs (Anjeer)",
     parent: "Figs (Anjeer)",
@@ -80,7 +80,7 @@ const category_data:ICategoryData[] = [
   },
   {
     id: 8,
-    img: "/assets/img/catagory/8.png",
+    img: "/assets/img/catagory/seeds.png",
     name: "seeds",
     slug: "seeds",
     parent: "seeds",

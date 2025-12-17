@@ -1,3 +1,13 @@
+// --- Bootstrap Theme Overrides --- //
+$primary: #e88f1a;
+$secondary: #ff7f32;
+$success: #28a745;
+$danger: #dc3545;
+// add any other Bootstrap variables you want
+
+
+
+
 @import '~bootstrap/scss/bootstrap';
 @import 'swiper/css/bundle';
 @import 'node_modules/react-modal-video/scss/modal-video.scss';

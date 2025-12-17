@@ -12,7 +12,7 @@ const HeaderTop = () => {
           <div className="col-lg-6 col-md-12">
             <div className="header__top-left">
               <span>
-  Due to high demand for <strong>premium dry fruits</strong>, orders may take a little extra time to be processed and delivered.
+  Due to high demand for premium dry fruitsorders may take a little extra time to be processed and delivered.
 </span>
 
             </div>

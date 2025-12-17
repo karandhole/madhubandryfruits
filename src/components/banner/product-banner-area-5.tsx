@@ -3,10 +3,10 @@ import React from 'react';
 
 const ProductBannerAreaFive = () => {
    return (
-      <section className="banner-area pb-55 pt-40">
+      <section className="banner-area pb-55 pt-40 p-80">
          <div className="container">
             <div className="row">
-               <div className="col-lg-6 col-md-12">
+               <div className="col-lg-12 col-md-12">
                   <div className="tpbanner__wraper mb-20">
                      <div className="tpbanner__thumb">
                         <Link href="/">
@@ -24,7 +24,7 @@ const ProductBannerAreaFive = () => {
                      </div>
                   </div>
                </div>
-               <div className="col-lg-6">
+               {/* <div className="col-lg-6">
                   <div className="row">
                      <div className="col-lg-12 col-md-12">
                         <div className="tpbanner__thumb mb-20">
@@ -62,7 +62,7 @@ const ProductBannerAreaFive = () => {
                         </div>
                      </div>
                   </div>
-               </div>
+               </div> */}
             </div>
          </div>
       </section>

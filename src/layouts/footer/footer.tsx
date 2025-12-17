@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import payment from '@/assets/img/shape/footer-payment.png';
 import social_links from '@/data/social-data';
-
+import logo from '@/assets/img/logo/logo.png';
 // prop type 
 type IProps = {
    style_2?: boolean
@@ -14,6 +14,17 @@ const Footer = ({ style_2 = false }: IProps) => {
          <div className={`tpfooter__area footer-bg theme-bg-2 ${style_2 ? "pt-55 footer-border" : ""}`}>
             <div className="tpfooter__top pb-15">
                <div className="container">
+                  <div className="row justify-content-center mb-40">
+                     <div className="col-12 text-center">
+                        <div className="tpfooter__logo">
+                           <img
+                              src="/assets/img/logo/logo.png"
+                              alt="Madhuban Store Logo"
+                              style={{ maxWidth: "250px" }}
+                           />
+                        </div>
+                     </div>
+                  </div>
                   <div className="row">
                      <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                         <div className="tpfooter__widget footer-col-1 mb-50">

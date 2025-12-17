@@ -32,7 +32,7 @@ export default function HomePage() {
 
       <main>
         {/* hero start */}
-        <HeroBannerSix/>
+        {/* <HeroBannerSix/> */}
         {/* hero end */}
 
         {/* category start */}
@@ -49,35 +49,37 @@ export default function HomePage() {
 
         {/* product feature start */}
           <ProductBannerAreaFive/>
+           <ChooseArea />
+            <InstagramArea />
         {/* product feature end */}
 
         {/* product banner start */}
         {/* <ProductBannerArea /> */}
-          <ChooseArea />
+         
         {/* product banner end */}
 
          <ProductBannerAreaThree />
         {/* product banner area end */}
 
         {/* product brand feature start */}
-        {/* <ProductBrandFeature /> */}
+        <ProductBrandFeature />
         {/* product brand feature end */}
-        <AboutAreaThree/>
+        {/* <AboutAreaThree/> */}
 
         {/* deal offer start */}
         {/* <OfferCountdownBanner /> */}
         {/* deal offer end */}
 
         {/* blogs start */}
-        {/* <BlogItems /> */}
+        <BlogItems />
         {/* blogs end */}
          {/* instagram area start */}
-        {/* <InstagramArea /> */}
+       
         {/* instagram area end */}
 
 
         {/* feature area start */}
-        <FeatureArea />
+        {/* <FeatureArea /> */}
         {/* feature area end */}
 
       </main>

@@ -10,7 +10,7 @@ const product_data: IProductData[] = [
     sale_price: 499,
     image: {
       id: 1,
-      original: "/assets/img/product/new/first.png"
+      original: "/assets/img/product/new/p1.png"
     },
     category: {
       parent: 'Dry Fruits',
@@ -40,7 +40,7 @@ const product_data: IProductData[] = [
         name: "Xyz",
         comment: "Perfect",
         rating: 4.8,
-        user: "/assets/img/testimonial/test-avata-1.png",
+        user: "/assets/img/testimonial/p1.png",
         date: "22 June, 2023",
       }
     ],
@@ -61,8 +61,8 @@ const product_data: IProductData[] = [
     price: 700,
     image: {
       id: 1,
-      original: "/assets/img/product/new/second.png",
-      thumbnail: "/assets/img/product/new/second.png",
+      original: "/assets/img/product/new/p1.png",
+      thumbnail: "/assets/img/product/new/p1.png",
     },
     category: {
       parent: 'Dry Fruits',
@@ -72,7 +72,7 @@ const product_data: IProductData[] = [
     quantity: 42,
     unit: '2kg',
     gallery: [
-      "/assets/img/product/new/second.png",
+      "/assets/img/product/new/p1.png",
 
     ],
     description: "Premium whole cashew nuts sourced directly from trusted farms. Known for their buttery taste and crunchy texture, our cashews are packed with essential nutrients, healthy fats, and proteins. Perfect for snacking, cooking, or adding richness to sweets and gravies. Hygienically processed and packed to ensure freshness and natural flavor in every bite.",
@@ -118,8 +118,8 @@ const product_data: IProductData[] = [
     price: 299,
     image: {
       id: 1,
-      original: "/assets/img/product/new/third.png",
-      thumbnail: "/assets/img/product/new/third.png",
+      original: "/assets/img/product/new/p1.png",
+      thumbnail: "/assets/img/product/new/p1.png",
     },
     category: {
       parent: 'Dry Fruits',
@@ -129,7 +129,7 @@ const product_data: IProductData[] = [
     quantity: 42,
     unit: '2kg',
     gallery: [
-      "/assets/img/product/new/third.png",
+      "/assets/img/product/new/p1.png",
      
     ],
     description: "Premium quality walnuts sourced from the best farms, known for their rich taste and high nutritional value. Walnuts are a powerhouse of Omega-3 fatty acids, antioxidants, and essential minerals that support brain health and overall well-being. Carefully cleaned, graded, and hygienically packed to retain natural crunch, flavor, and freshness. Perfect as a healthy snack or for enhancing your favorite recipes and desserts.",
@@ -175,8 +175,8 @@ const product_data: IProductData[] = [
     price: 200,
     image: {
       id: 1,
-      original: "/assets/img/product/new/fourth.png",
-      thumbnail: "/assets/img/product/new/fourth.png",
+      original: "/assets/img/product/new/p1.png",
+      thumbnail: "/assets/img/product/new/p1.png",
     },
     category: {
       parent: 'Dry Fruits',
