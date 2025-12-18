@@ -254,7 +254,7 @@ Shipping: ${shippingText}
                      </div>
                      <div className="col-lg-6 col-md-12">
                         <div className="your-order mb-30 ">
-                           <h3>Your order</h3>
+                           <h3>WhatsApp your order details to proceed.</h3>
                            <div className="your-order-table table-responsive">
                               <table>
                                  <thead>
@@ -318,7 +318,7 @@ Shipping: ${shippingText}
                            <div className="payment-method">
                               {/* Checkout Order */}
                               <div className="order-button-payment mt-20">
-                                 <button type="button" onClick={handlePlaceOrder} className="tp-btn tp-color-btn w-100 banner-animation">Place order</button>
+                                 <button type="button" onClick={handlePlaceOrder} className="tp-btn tp-color-btn w-100 banner-animation">Place Order via WhatsApp</button>
                               </div>
                               {/* Checkout Order */}
                            </div>
