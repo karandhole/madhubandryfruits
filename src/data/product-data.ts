@@ -13,7 +13,7 @@ const product_data: IProductData[] = [
       original: "/assets/img/product/new/p1.png"
     },
     category: {
-      parent: 'Dry Fruits',
+      parent: 'Almonds',
       child: 'Almonds',
     },
     brand: "Madhuban Foods",
@@ -65,7 +65,7 @@ const product_data: IProductData[] = [
       thumbnail: "/assets/img/product/new/p1.png",
     },
     category: {
-      parent: 'Dry Fruits',
+      parent: 'Cashew',
       child: 'Cashew',
     },
     brand: "Madhuban Foods",
@@ -122,7 +122,7 @@ const product_data: IProductData[] = [
       thumbnail: "/assets/img/product/new/p1.png",
     },
     category: {
-      parent: 'Dry Fruits',
+      parent: 'Walnuts',
       child: 'Walnuts',
     },
     brand: "Madhuban Foods",
@@ -179,7 +179,7 @@ const product_data: IProductData[] = [
       thumbnail: "/assets/img/product/new/p1.png",
     },
     category: {
-      parent: 'Dry Fruits',
+      parent: 'Pista',
       child: 'Pista',
     },
     brand: "Madhuban Foods",
@@ -236,7 +236,7 @@ const product_data: IProductData[] = [
       original: "/assets/img/product/new/five.png"
     },
     category: {
-      parent: 'Dry Fruits',
+      parent: 'Raisins',
       child: 'Raisins',
     },
     brand: "Madhuban Foods",
@@ -289,7 +289,7 @@ const product_data: IProductData[] = [
     },
     category: {
       parent: 'Dates',
-      child: 'Exotic Dry Fruits',
+      child: 'Dates',
     },
     brand: "drufruits",
     quantity: 55,
@@ -340,7 +340,7 @@ const product_data: IProductData[] = [
       original: "/assets/img/product/new/five.png"
     },
     category: {
-      parent: 'Dry Fruits',
+      parent: 'Raisins',
       child: 'Raisins',
     },
     brand: "Madhuban Foods",

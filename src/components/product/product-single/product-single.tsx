@@ -11,6 +11,7 @@ import { handleModalProduct, handleOpenModal } from "@/redux/features/utility";
 import { add_cart_product } from "@/redux/features/cart";
 import { add_to_compare } from "@/redux/features/compare";
 import { add_to_wishlist } from "@/redux/features/wishlist";
+import "./product.css";
 
 // image style
 const imgStyle = {

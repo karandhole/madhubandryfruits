@@ -7,7 +7,7 @@ import WishlistArea from "@/components/wishlist/wishlist-area";
 import Footer from "@/layouts/footer/footer";
 
 export const metadata: Metadata = {
-  title: "Wishlist - Orfarm",
+  title: "Shop | Madhuban Store",
 };
 
 export default function WishlistPage() {

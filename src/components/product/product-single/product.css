@@ -1,0 +1,19 @@
+.tpproduct__thumb{
+
+}
+
+.tpproduct__content {
+    background-color: white;
+}
+.tp-btn-2{
+  
+    background-color: white;
+    border: 1px solid orange;
+    color: black;
+    text-transform: none;
+    border-radius: 4px;
+} 
+.tp-btn-2:hover{
+    background-color: orange;
+    color: white;
+}

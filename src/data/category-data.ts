@@ -7,7 +7,7 @@ const category_data:ICategoryData[] = [
     name: "Almonds",
     slug: "Almonds",
     parent: "Almonds",
-    children: [
+    children: ["Almonds"
      
     ],
     product_id: [1, 2, 3, 4, 5, 6, 7],
@@ -19,7 +19,7 @@ const category_data:ICategoryData[] = [
     slug: "Cashews",
     parent: "Cashews",
     children: [
-      
+      "Cashews"
     ],
     product_id: [8, 9, 10, 11, 12, 13],
   },
@@ -29,7 +29,7 @@ const category_data:ICategoryData[] = [
     name: "Walnuts",
     slug: "Walnuts",
     parent: "Walnuts",
-    children: [
+    children: [ "Walnuts"
       
     ],
     product_id: [14, 15, 16],
@@ -41,7 +41,7 @@ const category_data:ICategoryData[] = [
     slug: "pista",
     parent: "pista",
     children: [
-      
+      "pista"
     ],
     product_id: [17, 18, 19, 20],
   },
@@ -52,7 +52,7 @@ const category_data:ICategoryData[] = [
     slug: "raisins",
     parent: "raisins",
     children: [
-      
+      "raisins"
     ],
     product_id: [21, 22],
   },

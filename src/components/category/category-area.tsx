@@ -67,7 +67,7 @@ const CategoryArea = ({ cls, perView = 8, showCount = true }: IProps) => {
             <SwiperSlide key={item.id}>
               <div className="category__item mb-30 ">
                 <div className="category__thumb fix mb-15 ">
-                  {/* <a onClick={() => handleCategorySearch(item.name)} className="pointer"> </a> */}
+                  <a onClick={() => handleCategorySearch(item.name)} className="pointer"> </a>
                   <Image
                     src={item.img}
                     width={100}

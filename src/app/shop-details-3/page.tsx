@@ -9,7 +9,7 @@ import ShopDetailsArea from "@/components/shop-details/shop-details-area";
 import RelatedProducts from "@/components/product/related-products";
 
 export const metadata: Metadata = {
-  title: "Shop Details Three - Orfarm",
+ title: "Shop | Madhuban Store",
 };
 
 export default function ShopDetailsThreePage() {
