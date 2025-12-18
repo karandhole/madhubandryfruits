@@ -6,9 +6,9 @@
     background-color: white;
 }
 .tp-btn-2{
-  
+    
     background-color: white;
-    border: 1px solid orange;
+    border: 2px solid orange;
     color: orange;
     text-transform: none;
     border-radius: 4px;
@@ -16,4 +16,7 @@
 .tp-btn-2:hover{
     background-color: orange;
     color: white;
+}
+.tpproduct__thumb{
+    border-radius: 2px;
 }

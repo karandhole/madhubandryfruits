@@ -12,6 +12,7 @@ import SearchPopup from '@/components/common/modal/search-popup';
 import CartSidebar from '@/components/sidebar/cart-sidebar';
 import useCartInfo from '@/hooks/use-cart-info';
 import MobileSidebar from '@/components/sidebar/mobile-sidebar';
+import "./header.css";
 
 const Header = () => {
   const {sticky} = useSticky();

@@ -53,7 +53,7 @@ const InstagramArea = () => {
         <div className="row">
           <div className="col-lg-12 text-center">
             <div className="tpsection mb-35">
-              <h4 className="tpsection__title" id="title">@Social Media Reels</h4>
+              <h4 className="tpsection__title text-start" id="title">@Social Media Reels</h4>
               
             </div>
 

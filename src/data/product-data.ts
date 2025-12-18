@@ -40,7 +40,7 @@ const product_data: IProductData[] = [
         name: "Xyz",
         comment: "Perfect",
         rating: 4.8,
-        user: "/assets/img/testimonial/p1.png",
+        user: "/assets/img/testimonial/product1.png",
         date: "22 June, 2023",
       }
     ],
@@ -72,7 +72,7 @@ const product_data: IProductData[] = [
     quantity: 42,
     unit: '2kg',
     gallery: [
-      "/assets/img/product/new/p1.png",
+      "/assets/img/product/new/product1.png",
 
     ],
     description: "Premium whole cashew nuts sourced directly from trusted farms. Known for their buttery taste and crunchy texture, our cashews are packed with essential nutrients, healthy fats, and proteins. Perfect for snacking, cooking, or adding richness to sweets and gravies. Hygienically processed and packed to ensure freshness and natural flavor in every bite.",
@@ -118,8 +118,8 @@ const product_data: IProductData[] = [
     price: 299,
     image: {
       id: 1,
-      original: "/assets/img/product/new/p1.png",
-      thumbnail: "/assets/img/product/new/p1.png",
+      original: "/assets/img/product/new/product2.png",
+      thumbnail: "/assets/img/product/new/product2.png",
     },
     category: {
       parent: 'Walnuts',
@@ -175,8 +175,8 @@ const product_data: IProductData[] = [
     price: 200,
     image: {
       id: 1,
-      original: "/assets/img/product/new/p1.png",
-      thumbnail: "/assets/img/product/new/p1.png",
+      original: "/assets/img/product/new/product3.png",
+      thumbnail: "/assets/img/product/new/product3.png",
     },
     category: {
       parent: 'Pista',
@@ -233,7 +233,7 @@ const product_data: IProductData[] = [
     price: 399,
     image: {
       id: 1,
-      original: "/assets/img/product/new/five.png"
+      original: "/assets/img/product/new/product4.png"
     },
     category: {
       parent: 'Raisins',
@@ -285,7 +285,7 @@ const product_data: IProductData[] = [
     price: 250,
     image: {
       id: 1,
-      original: "/assets/img/product/new/six.png"
+      original: "/assets/img/product/new/product5.png"
     },
     category: {
       parent: 'Dates',
@@ -337,7 +337,7 @@ const product_data: IProductData[] = [
     price: 399,
     image: {
       id: 1,
-      original: "/assets/img/product/new/five.png"
+      original: "/assets/img/product/new/product1.png"
     },
     category: {
       parent: 'Raisins',
