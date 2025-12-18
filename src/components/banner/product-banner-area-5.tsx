@@ -11,7 +11,7 @@ const ProductBannerAreaFive = () => {
                      <div className="tpbanner__thumb">
                         <Link href="/">
                            <div className="tpbanner__big-text tpbanner__big-bg" style={{ backgroundImage: "url(/assets/img/banner/banner4.png)" }}>
-                              <div className="tpbanner__big-bg-content">
+                              <div className="tpbanner__big-bg-content text-center">
                                  <span className="tpbanner__sub-title mb-20">Top offers</span>
                                  <h4 className="tpbanner__title mb-15">pepper <br /> Weekend promo</h4>
                                  <p>Natural, Rich in Nutrition</p>
