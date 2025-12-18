@@ -54,3 +54,31 @@
     padding-right: 15px;
   }
 }
+
+
+
+.category__thumb::after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-size: 100% 1px, 1px 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  /* opacity: 0;
+  visibility: hidden; */
+  z-index: 11;
+  pointer-events: none;
+}
+
+.category__thumb::before {
+  position: absolute;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  content: "";
+  z-index: 2;
+  opacity: 0;
+  transition: all 240ms linear 0s;
+  pointer-events: none;
+}

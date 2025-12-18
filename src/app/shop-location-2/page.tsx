@@ -27,7 +27,7 @@ export default function ShopLocationTwoPage() {
         {/* location area end */}
 
         {/* feature area start */}
-        <FeatureArea style_2={true} />
+    
         {/* feature area end */}
       </main>
 

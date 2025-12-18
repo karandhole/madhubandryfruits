@@ -44,7 +44,7 @@ const ShopArea = ({category_style=false,shop_right=false}: IProps) => {
           </div>
           <div className="col-xl-10 col-lg-12 col-md-12">
             <div className={`tpshop__top ${shop_right?"tpshop__sidebar-area mr-60":"ml-60"}`}>
-              {!category_style && (
+              {/* {!category_style && (
                 <div
                   className="tpshop__banner mb-30"
                   style={{backgroundImage: "url(/assets/img/banner/shop-bg-1.jpg)"}}
@@ -58,7 +58,7 @@ const ShopArea = ({category_style=false,shop_right=false}: IProps) => {
                     <p>Do not miss the current offers of us!</p>
                   </div>
                 </div>
-              )}
+              )} */}
               {category_style && (
                 <div className="tpshop__category">
                   <CategoryArea cls="inner-category-active" perView={7} showCount={false} />

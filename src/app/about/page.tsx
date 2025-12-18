@@ -74,7 +74,7 @@ export default function AboutPage() {
         {/* testimonial three end */}
 
         {/* feature area start */}
-        <FeatureArea style_2={true} />
+        {/* <FeatureArea style_2={true} /> */}
         {/* feature area end */}
       </main>
 

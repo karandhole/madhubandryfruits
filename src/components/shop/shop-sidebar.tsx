@@ -25,7 +25,7 @@ const ShopSidebar = ({shop_right}: IProps) => {
         {/* price filter */}
 
         {/* color filter start */}
-        <ColorFilter />
+        {/* <ColorFilter /> */}
         {/* color filter end */}
 
         {/* brand filter start */}
@@ -39,11 +39,11 @@ const ShopSidebar = ({shop_right}: IProps) => {
         <ResetFilter/>
         {/* reset filter */}
       </div>
-      <div className={`tpshop__widget ${shop_right?'tpshop__leftbar-area':''}`}>
+      {/* <div className={`tpshop__widget ${shop_right?'tpshop__leftbar-area':''}`}>
         <div className="tpshop__sidbar-thumb mt-35">
           <Image src="/assets/img/shape/sidebar-product-1.png" alt="img" width={270} height={460} style={{height: 'auto'}} />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

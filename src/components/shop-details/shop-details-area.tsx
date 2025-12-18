@@ -230,7 +230,7 @@ const ShopDetailsArea = ({ product, navStyle = false, topThumb = false }: IProps
                     </li>
                   </ul>
                 </div>
-                <div className="tpsidebar__banner mb-30">
+                {/* <div className="tpsidebar__banner mb-30">
                   <Image
                     src="/assets/img/shape/sidebar-product-1.png"
                     alt="product-img"
@@ -238,7 +238,7 @@ const ShopDetailsArea = ({ product, navStyle = false, topThumb = false }: IProps
                     height={460}
                     style={{ height: "auto" }}
                   />
-                </div>
+                </div> */}
                 <div className="tpsidebar__product">
                   <h4 className="tpsidebar__title mb-15">Recent Products</h4>
                   {recent_products.map((product) => (

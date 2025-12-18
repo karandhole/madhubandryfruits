@@ -27,7 +27,7 @@ export default function SearchPage() {
         {/* search area end */}
 
         {/* feature area start */}
-        <FeatureArea />
+    
         {/* feature area end */}
       </main>
 

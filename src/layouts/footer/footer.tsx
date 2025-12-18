@@ -3,6 +3,7 @@ import Image from 'next/image';
 import payment from '@/assets/img/shape/footer-payment.png';
 import social_links from '@/data/social-data';
 import logo from '@/assets/img/logo/logo.png';
+import "./footer.css";
 // prop type 
 type IProps = {
    style_2?: boolean

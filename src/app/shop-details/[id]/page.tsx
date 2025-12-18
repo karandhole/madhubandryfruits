@@ -43,7 +43,7 @@ export default function ShopDetailsPage({
 
         <RelatedProducts category={product.category.parent} />
 
-        <FeatureArea style_2={true} />
+      
       </main>
 
       <Footer />
