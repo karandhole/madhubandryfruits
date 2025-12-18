@@ -55,7 +55,7 @@ const ProductSingle = ({ product, progress, cls, offer_style, price_space }: IPr
 
   return (
     <div
-      className={`tpproduct p-relative ${cls ? cls : ""} ${progress ? "tpprogress__hover" : ""}`}
+      className={`tpproduct ${cls ? cls : ""} ${progress ? "tpprogress__hover" : ""}`}
     >
       <div className="tpproduct__thumb overflow-hidden p-relative text-center">
         <Link href={`/shop-details/${product.id}`}>

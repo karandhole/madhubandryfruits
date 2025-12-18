@@ -11,7 +11,7 @@ type IProps = {
 const Footer = ({ style_2 = false }: IProps) => {
    return (
       <footer>
-         <div className={`tpfooter__area footer-bg theme-bg-2 ${style_2 ? "pt-55 footer-border" : ""}`}>
+         <div className={`tpfooter__area  theme-bg-2 ${style_2 ? "pt-55 footer-border" : ""}`}>
             <div className="tpfooter__top pb-15">
                <div className="container">
                   <div className="row justify-content-center mb-40">
