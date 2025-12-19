@@ -6,18 +6,18 @@ import Link from "next/link";
 const HeaderTop = () => {
   const handleCurrency = (item: { value: string; label: string }) => {};
   return (
-    <div className="header__top theme-bg-1 d-none d-md-block">
+    <div className="header__top theme-bg-1  d-block d-md-block">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12">
             <div className="header__top-left">
               <span>
-  Due to high demand for premium dry fruitsorders may take a little extra time to be processed and delivered.
+  Premium Dry Fruits, Worth Waiting For
 </span>
 
             </div>
           </div>
-          <div className="col-lg-6 col-md-12">
+          <div className="col-lg-6 d-none col-md-12">
             <div className="header__top-right d-flex align-items-center">
               <div className="header__top-link">
                 <a href="#">Store Location</a>
