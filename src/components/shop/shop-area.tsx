@@ -64,7 +64,7 @@ const ShopArea = ({category_style=false,shop_right=false}: IProps) => {
                   <CategoryArea cls="inner-category-active" perView={7} showCount={false} />
                 </div>
               )}
-              <div className="product__filter-content mb-40">
+              {/* <div className="product__filter-content mb-40">
                 <div className="row align-items-center">
                   <div className="col-sm-4">
                     <div className="product__item-count">
@@ -111,7 +111,7 @@ const ShopArea = ({category_style=false,shop_right=false}: IProps) => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* shop items start */}
               <ShopItems

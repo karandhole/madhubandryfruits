@@ -40,7 +40,7 @@ const ShopAreaTwo = ({list_style=false}:IProps) => {
                 <div className="tpshop__category">
                   <CategoryArea cls="inner-category-two" showCount={false} />
                 </div>
-                <div className="product__filter-content mb-30">
+                {/* <div className="product__filter-content mb-30">
                   <div className="row align-items-center">
                     <div className="col-sm-4">
                       <div className="product__item-count">
@@ -82,7 +82,7 @@ const ShopAreaTwo = ({list_style=false}:IProps) => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 {/* shop items start */}
                 <ShopItems
                   products={currentItems}

@@ -29,10 +29,10 @@ const ShopSidebar = ({shop_right}: IProps) => {
         {/* color filter end */}
 
         {/* brand filter start */}
-        <BrandFilter />
+        {/* <BrandFilter /> */}
         {/* brand filter end */}
         {/* range filter start */}
-        <RatingFilter />
+        {/* <RatingFilter /> */}
         {/* range filter end */}
 
         {/* reset filter */}
