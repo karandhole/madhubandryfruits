@@ -2,7 +2,7 @@
 .category__item {
   background: #fff;
   padding: 18px 12px;
-  border-radius: 0px;
+  border-radius: 4px;
   text-align: center;
  border: 1px solid rgb(168, 166, 166);
   transition: all 0.3s ease;

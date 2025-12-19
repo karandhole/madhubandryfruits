@@ -24,3 +24,14 @@
     border: 1px solid rgb(177, 176, 176);
     border-radius: 0px;
 }
+@media (max-width: 575px) {
+    .tp-btn-2{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    border: 1px solid orange;
+    color: orange;
+    text-transform: none;
+    border-radius: 4px;
+} 
+}

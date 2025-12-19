@@ -26,10 +26,10 @@ const slider_setting = {
          slidesPerView: 3,
       },
       '576': {
-         slidesPerView: 1,
+         slidesPerView: 2,
       },
       '0': {
-         slidesPerView: 1,
+         slidesPerView: 2,
       },
    },
    navigation: {
