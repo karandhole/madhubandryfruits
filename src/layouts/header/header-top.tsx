@@ -4,7 +4,7 @@ import NiceSelect from "@/components/ui/nice-select";
 import Link from "next/link";
 
 const HeaderTop = () => {
-  const handleCurrency = (item: { value: string; label: string }) => {};
+  const handleCurrency = (item: { value: string; label: string }) => { };
   return (
     <div className="header__top theme-bg-1  d-block d-md-block">
       <div className="container">
@@ -12,8 +12,8 @@ const HeaderTop = () => {
           <div className="col-lg-6 col-md-12">
             <div className="header__top-left">
               <span>
-  Premium Dry Fruits, Worth Waiting For
-</span>
+                Premium Dry Fruits, Worth Waiting For
+              </span>
 
             </div>
           </div>
