@@ -35,7 +35,7 @@ const ChooseArea = ({style_2 = false}:IProps) => {
               <div className="col-lg-12 text-center">
                   <div className="tpsection mb-35 pt-75">
                     
-                    <h4 className="tpsection__title text-start">Why choose us</h4>
+                    <h4 className="tpsection__title text-start text-black">Why choose us</h4>
                     
                   </div>
               </div>

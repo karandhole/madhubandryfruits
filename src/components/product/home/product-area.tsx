@@ -48,7 +48,7 @@ const ProductArea = () => {
                   <div className="col-lg-12 text-center">
                      <div className="tpsection mb-35">
                         {/* <h4 className="tpsection__sub-title">~ Special Products ~</h4> */}
-                        <h4 className="tpsection__title text-start" id='title'>Products</h4>
+                        <h4 className="tpsection__title text-start text-black" id='title'>Products</h4>
                      
                      </div>
                   </div>

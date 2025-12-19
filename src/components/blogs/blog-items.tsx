@@ -52,7 +52,7 @@ const BlogItems = ({style_2=false,bottom_show=true,spacing}: IProps) => {
               <div className="col-lg-12 text-center">
                 <div className="tpsection mb-35">
                 
-                  <h4 className="tpsection__title">Our Latest Blog</h4>
+                  <h4 className="tpsection__title text-start text-black">Our Latest Blog</h4>
                   
                 </div>
               </div>

@@ -13,7 +13,7 @@ const ProductBrandFeature = () => {
           <div className="row align-items-center">
             <div className="col-md-6 text-center">
               <div className="tpsection mb-15">
-                <h4 className="tpsection__title text-start brand-product-title" id='title'>Best Sellers</h4>
+                <h4 className="tpsection__title text-start brand-product-title text-black" id='title'>Best Sellers</h4>
               </div>
             </div>
             <div className="col-md-6">
