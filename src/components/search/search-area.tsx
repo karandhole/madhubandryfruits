@@ -81,7 +81,7 @@ const SearchArea = () => {
                       <span>Showing 1 -{currentItems.length} of {productItems.length}{" "} Products</span>
                     </div>
                   </div>
-                  <div className="col-sm-4">
+                  {/* <div className="col-sm-4">
                     <div className="tpproductnav tpnavbar product-filter-nav d-flex align-items-center justify-content-center">
                       <nav>
                         <div className="nav nav-tabs">
@@ -97,8 +97,8 @@ const SearchArea = () => {
                         </div>
                       </nav>
                     </div>
-                  </div>
-                  <div className="col-sm-4">
+                  </div> */}
+                  {/* <div className="col-sm-4">
                     <div className="product__navtabs d-flex justify-content-end align-items-center">
                       <div className="tp-shop-selector">
                         <NiceSelect
@@ -114,7 +114,7 @@ const SearchArea = () => {
                         />
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               {/* shop items start */}

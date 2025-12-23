@@ -67,18 +67,18 @@ const CategoryArea = ({ cls, perView = 8, showCount = true }: IProps) => {
             <SwiperSlide key={item.id}>
               <div className="category__item mb-30 ">
                 <div className="category__thumb fix mb-15 ">
-                  <a onClick={() => handleCategorySearch(item.name)} className="pointer"> </a>
+                  <a onClick={() => handleCategorySearch(item.name)} className="pointer"> 
                   <Image
                     src={item.img}
                     width={100}
                     height={100}
                     alt="category-thumb"
                   />
-
+                  </a>
                 </div>
                 <div className="category__content">
                   <h5 className="category__title">
-                    <Link href="/shop">{item.name}</Link>
+                    {item.name}
                   </h5>
                   {/* {showCount && (
                   <span className="category__count">
@@ -89,6 +89,7 @@ const CategoryArea = ({ cls, perView = 8, showCount = true }: IProps) => {
                   </span>
                 )} */}
                 </div>
+               
               </div>
             </SwiperSlide>
           ))}
