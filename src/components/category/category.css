@@ -16,7 +16,13 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.13);
 } */
 .category__title{
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Roboto", sans-serif;
+ font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  
   
 }
 /* Image container */
@@ -32,7 +38,7 @@
 .category__title {
   font-size: 15px;
   margin-top: 10px;
-  font-weight: 600;
+
   color: #222;
 }
 

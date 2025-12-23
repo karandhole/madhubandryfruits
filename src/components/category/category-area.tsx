@@ -80,14 +80,14 @@ const CategoryArea = ({ cls, perView = 8, showCount = true }: IProps) => {
                   <h5 className="category__title">
                     <Link href="/shop">{item.name}</Link>
                   </h5>
-                  {showCount && (
+                  {/* {showCount && (
                   <span className="category__count">
                     {item.product_id.length <= 9 && item.product_id.length !== 0
                       ? `0${item.product_id.length}`
                       : `${item.product_id.length}`}{" "}
                     items
                   </span>
-                )}
+                )} */}
                 </div>
               </div>
             </SwiperSlide>

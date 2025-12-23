@@ -3,7 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 import menu_data from "@/data/menu-data";
 
-const Menus = ({ position }) => {
+/* ✅ Props type */
+type MenusProps = {
+  position?: "left" | "right";
+};
+
+const Menus: React.FC<MenusProps> = ({ position = "left" }) => {
   // Split menus
   const midIndex = Math.ceil(menu_data.length / 2);
   const leftMenus = menu_data.slice(0, midIndex);
@@ -52,11 +57,11 @@ const Menus = ({ position }) => {
               >
                 {menu.shop_menus.map((shop_menu, i) => (
                   <li key={i}>
-                    <a className="mega-menu-title">{shop_menu.title}</a>
+                    <span className="mega-menu-title">{shop_menu.title}</span>
                     <ul>
-                      {shop_menu.menus.map((menu, i) => (
+                      {shop_menu.menus.map((submenu, i) => (
                         <li key={i}>
-                          <Link href={menu.link}>{menu.title}</Link>
+                          <Link href={submenu.link}>{submenu.title}</Link>
                         </li>
                       ))}
                     </ul>
