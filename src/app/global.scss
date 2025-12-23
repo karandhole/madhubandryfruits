@@ -26,10 +26,10 @@ $danger: #dc3545;
   /**
   @font family declaration
   */
-  --tp-ff-body: 'Jost', sans-serif;
-  --tp-ff-heading: 'Quicksand', sans-serif;
-  --tp-ff-p: 'Jost', sans-serif;
-  --tp-ff-jost: 'Jost', sans-serif;
+  --tp-ff-body: "Roboto", sans-serif;
+  --tp-ff-heading:"Roboto", sans-serif;
+  --tp-ff-p: "Roboto", sans-serif;
+  --tp-ff-jost: "Roboto", sans-serif;
   --tp-ff-font-family: Font Awesome 5 Pro;
   /**
   @color declaration
@@ -68,4 +68,11 @@ $danger: #dc3545;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+ font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
+
