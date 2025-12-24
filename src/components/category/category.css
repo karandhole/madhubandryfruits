@@ -90,3 +90,14 @@
   transition: all 240ms linear 0s;
   pointer-events: none;
 }
+
+
+.category__item:hover .category__thumb::before {
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  opacity: 0;
+  transform: none;
+}
+
