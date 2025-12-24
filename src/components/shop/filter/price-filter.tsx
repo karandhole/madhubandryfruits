@@ -28,7 +28,7 @@ const PriceFilter = () => {
             />
           </div>
           <div className="price-filter mt-10">
-            <span>${priceValue[0]} - ${priceValue[1]}</span>
+            <span>Rs.{priceValue[0]} - Rs.{priceValue[1]}</span>
           </div>
         </div>
       </div>
