@@ -4,6 +4,7 @@
 
 .tpproduct__content {
     background-color: white;
+      flex-grow: 1;
 }
 .tp-btn-2{
     
@@ -23,6 +24,9 @@
 .tpproduct{
     border: 1px solid rgb(177, 176, 176);
     border-radius: 0px;
+     height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 @media (max-width: 575px) {
     .tp-btn-2{
@@ -34,4 +38,9 @@
     text-transform: none;
     border-radius: 4px;
 } 
+}
+
+
+.tpproduct__hover-btn {
+  margin-top: auto;
 }

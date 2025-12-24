@@ -9,7 +9,7 @@ const menu_data:IMenuData[] = [
   {
     id:2,
     name:'Shop',
-    link:'/shop-2',
+    link:'/shop',
   },
    {
     id:3,
